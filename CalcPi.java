@@ -12,7 +12,7 @@ public class CalcPi {
 			}
 			denom = denom + 2;
 		}
-		System.out.println("pi accoridng to java: 3.141592653589793");
+		System.out.println("pi according to Java: 3.141592653589793");
 		System.out.println("pi, approximated:     " + sum * 4);
 	}
 }
