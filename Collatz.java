@@ -24,13 +24,13 @@ public class Collatz {
 				if (tempI % 2 == 0) {
 					tempI = tempI / 2;
 					if (isV) {
-						System.out.print(tempI + ", ");
+						System.out.print(tempI + " ");
 						count++;
 					}
 				} else {
 					tempI = (tempI * 3) + 1;
 					if (isV) {
-						System.out.print(tempI + ", ");
+						System.out.print(tempI + " ");
 						count++;
 					}
 				}
