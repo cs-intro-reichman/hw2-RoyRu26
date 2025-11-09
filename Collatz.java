@@ -39,7 +39,7 @@ public class Collatz {
 				}
 			}
 			if (isV) {
-				System.out.println(" (" + count + ")");
+				System.out.println("("+ count + ")");
 			}
 			count = 1;
 		}
