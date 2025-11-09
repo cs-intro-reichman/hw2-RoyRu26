@@ -44,7 +44,7 @@ public class Collatz {
 			count = 1;
 		}
 		if (coll) {
-			System.out.println("\nEvery one of the first " + seed + " hailstone sequences reached 1.");
+			System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 		}
 	}
 }
