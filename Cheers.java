@@ -1,7 +1,6 @@
 public class Cheers {
         public static void main(String[] args) {
                 String word = args[0].toUpperCase();
-                System.out.println(word);
                 String anChar = "AEFHILMNORSX";
                 int times = Integer.parseInt(args[1]);
                 for (int i = 0; i < word.length(); i++) {
